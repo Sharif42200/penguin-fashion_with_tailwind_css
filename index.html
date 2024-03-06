@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- bebas font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Bebas Neue", sans-serif;
+        }
+        .roboto-font{
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="p-5 md:p-0">
+    <header class="bg-[#FFFBF0] ">
+        <!-- navbar part -->
+        <nav class="max-w-6xl mx-auto pt-10">
+            <div class="parent flex flex-col md:flex-row justify-center md:justify-between items-center gap-7 md:gap-20">
+                <div class="logo w-72 h-8">
+                    <img src="icons/logo.png" alt="">
+                </div>
+                <ul class="uppercase flex flex-col md:flex-row justify-center md:justify-between items-center gap-5 md:gap-10">
+                    <li><a class="roboto-font font-medium" href="">Home</a></li>
+                    <li><a class="roboto-font font-medium" href="">About</a></li>
+                    <li><a class="roboto-font font-medium" href="">Blog</a></li>
+                    <li><a class="roboto-font font-medium" href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <section class="max-w-6xl mx-auto">
+            <div class="flex gap-5 md:gap-36 flex-col md:flex-row justify-between items-center pt-20 pb-20">
+                <div class="space-y-3 uppercase">
+                    <h1 class="text-7xl"> <span class="text-[#FABE4C]">Be the Penguins</span>
+                        <br> <span class="text-[#363958]">of Winter</span>
+                    </h1>
+                    <p class="">Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, <br> earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
+                    <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 inline">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+
+                        Buy now</button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- banner section end -->
+    </header>
+
+    <main class="max-w-6xl mx-auto">
+
+        <!-- women jacket section -->
+        <section class="my-12">
+            <h3 class="text-[#363958] text-5xl">Women Jacket</h3>
+            <!-- women jacket section -->
+            <div class="parent mt-5 grid gap-7 grid-cols-1 md:grid-cols-3">
+                <!-- jacket 1 -->
+                <div class="space-y-3 p-5 rounded-2xl bg-white shadow-xl">
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h3 class="roboto-font text-2xl font-bold text-[#363958]">Yellow Coat Jacket</h3>
+                    <p class="roboto-font">Figure-skimming single-breasted jacket made from soft linen and viscose canvas.</p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto-font text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+    
+                            Buy now</button>
+                    </div>
+
+                </div>
+                <!-- jacket 2 -->
+                <div class="space-y-3 p-5 rounded-2xl bg-white shadow-xl">
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <h3 class="roboto-font text-2xl font-bold text-[#363958]">Ladies Jacket</h3>
+                    <p class="roboto-font">Our women's coats and jackets collection features snug quilted pieces.</p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto-font text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+    
+                            Buy now</button>
+                    </div>
+
+                </div>
+                <!-- jacket 3 -->
+                <div class="space-y-3 p-5 rounded-2xl bg-white shadow-xl">
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <h3 class="roboto-font text-2xl font-bold text-[#363958]">Woman Leather Jacket</h3>
+                    <p class="roboto-font">Find a great selection of Women's Leather & Faux Leather Jackets.</p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto-font text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+    
+                            Buy now</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- women jacket section end -->
+
+
+        <!-- men jacket section -->
+        <section class="my-24">
+            <h3 class="text-[#363958] text-5xl">Man Jacket</h3>
+            <!-- men jacket section -->
+            <div class="parent mt-5 grid gap-7 grid-cols-1 md:grid-cols-3">
+                <!-- jacket 1 -->
+                <div class="space-y-3 p-5 rounded-2xl bg-white shadow-xl">
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <h3 class="roboto-font text-2xl font-bold text-[#363958]">Snowboard Jacket Mens</h3>
+                    <p class="roboto-font">Shop all men's Burton snowboard jackets and winter coats.</p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto-font text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+    
+                            Buy now</button>
+                    </div>
+
+                </div>
+                <!-- jacket 2 -->
+                <div class="space-y-3 p-5 rounded-2xl bg-white shadow-xl">
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <h3 class="roboto-font text-2xl font-bold text-[#363958]">Man Leather Jackets</h3>
+                    <p class="roboto-font">Find the perfect blend of style and durability with men's leather jackets.</p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto-font text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+    
+                            Buy now</button>
+                    </div>
+
+                </div>
+                <!-- jacket 3 -->
+                <div class="space-y-3 p-5 rounded-2xl bg-white shadow-xl">
+                    <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <h3 class="roboto-font text-2xl font-bold text-[#363958]">Man Casual Jackets</h3>
+                    <p class="roboto-font">Shop for latest Casual Jackets online from our brand.</p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto-font text-4xl font-black text-[#FABE4C]">$234</h2>
+                        <button class="px-6 py-5 bg-gradient-to-r from-[#84cc16] to-[#65a30d] rounded-xl text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+    
+                            Buy now</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- men jacket section end -->
+
+
+        <!-- shopping section -->
+        <section class="my-24">
+            <div class="parent flex flex-col md:flex-row gap-20 items-center justify-between">
+                <!-- content -->
+                <div>
+                    <!-- box 1 -->
+                    <div class="flex gap-10 items-center p-5 shadow-xl rounded-2xl">
+                        <div class="h-20 w-20">
+                            <img src="icons/house.png" alt="">
+                        </div>
+                        <div class="space-y-3">
+                            <h4 class="font-bold text-2xl text-[#363958]">Find the Perfect Fit</h4>
+                            <p class="font-normal text-[#363958]">Everybody is different, which is why we
+                            offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="flex gap-10 items-center p-5 shadow-xl rounded-2xl">
+                        <div class="h-20 w-20">
+                            <img src="icons/question.png" alt="">
+                        </div>
+                        <div class="space-y-3">
+                            <h4 class="font-bold text-2xl text-[#363958]">Contact Our Seller</h4>
+                            <p class="font-normal text-[#363958]">They are here to help you. That's quite 
+                                literally what we pay them for.</p>
+                        </div>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="flex gap-10 items-center p-5 shadow-xl rounded-2xl">
+                        <div class="h-20 w-20">
+                            <img src="icons/box.png" alt="">
+                        </div>
+                        <div class="space-y-3">
+                            <h4 class="font-bold text-2xl text-[#363958]">Free Exchanges</h4>
+                            <p class="font-normal text-[#363958]">One of the many reasons you can shop
+                                with peace of mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- img -->
+                <div class="md:w-2/4">
+                    <img src="images/shopping.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- shopping section end -->
+    </main>
+</body>
+
+</html>
